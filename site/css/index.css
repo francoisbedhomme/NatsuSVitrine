@@ -1,0 +1,61 @@
+.effetpara { /* effet sur le haut de la page */
+  background-image: url("../ressources/para.png");
+  height: 60vh;
+  background-attachment: fixed;
+  background-position: 0 -200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+
+}
+
+#presentation{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    font-family: "Pompadour";
+}
+
+#tagline{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 4vw;
+}
+
+#joinhim{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 3vw;
+}
+
+iframe{
+    width: 60vw;
+    height: 60vh;
+}
+
+#langueass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #72BCBD;
+    height: 30vh;
+    color: white;
+    font-family: "Pompadour";
+    font-size: 2vw;
+}
+
+footer{
+    display: flex;
+    background-color: #C63636;
+    height: 10vh;
+}
+
+
+
+
+
+

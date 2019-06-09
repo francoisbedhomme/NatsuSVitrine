@@ -1,0 +1,52 @@
+html{
+    font-size: 62.5%; 
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "LoveNature";
+    src: url("../fonts/Love Nature.otf");
+}
+
+@font-face {
+    font-family: "Pompadour";
+    src: url("../fonts/Pompadour.otf");
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: white;
+    background-color: #F74646;
+    width: 100vw;
+    max-height: 15vh;
+    position: sticky;
+}
+
+.selecteur{
+    font-family: "LoveNature";
+    font-size: calc(16px + 1vw);
+    padding: 2vw;
+    background-color: #F74646;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+
+.selecteur:hover{
+    background-color: #C63636;
+    text-decoration: underline;
+    text-decoration-color: #72BCBD;
+    transition: background-color 0.5s;
+}
+
+#titre{
+    font-size: 5rem;
+}
+
